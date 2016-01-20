@@ -1,0 +1,25 @@
+{
+  "name": "hive-auth-guest",
+  "version": "0.5.0",
+  "description": "A guest login authentication provider for Hive.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hivejs/hive-auth-guest.git"
+  },
+  "keywords": [
+    "hivejs",
+    "authentication",
+    "guest",
+    "anonymous"
+  ],
+  "author": "Marcel Klehr <mklehr@gmx.net>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/hivejs/hive-auth-guest/issues"
+  },
+  "homepage": "https://github.com/hivejs/hive-auth-guest#readme"
+}
