@@ -1,6 +1,6 @@
 {
   "name": "hive-auth-guest",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "A guest login authentication provider for Hive.js",
   "main": "index.js",
   "scripts": {
