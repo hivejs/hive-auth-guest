@@ -12,7 +12,7 @@ function setup(plugin, imports, register) {
     if(!name) {
       name = 'anonymous'
     }
-    user = yield orm.collections.user.findOrcreate({type: 'guest', name: name}, {type: 'guest', name: name, foreignId: 1})
+    user = yield orm.collections.user.findOrCreate({type: 'guest', name: name}, {type: 'guest', name: name, foreignId: 1})
     return user
   })
 
